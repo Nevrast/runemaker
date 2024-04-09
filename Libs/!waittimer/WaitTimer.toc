@@ -1,0 +1,10 @@
+LibStub.lua
+WaitTimer.lua
+-- X-Curse-Packaged-Version: v1.8
+-- X-Curse-Project-Name: WaitTimer
+-- X-Curse-Project-ID: waittimer
+-- X-Curse-Repository-ID: rom/waittimer/mainline
+-- X-Curse-Packaged-Version: v4.1
+-- X-Curse-Project-Name: ComeOnIn
+-- X-Curse-Project-ID: comeonin
+-- X-Curse-Repository-ID: rom/comeonin/mainline

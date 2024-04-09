@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.runewaker.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.runewaker.com/UI.xsd">
+    <Frame name="Tis_Frame">
+        <Scripts>
+            <OnEvent>
+                -- call the OnEvent method on our AddOn, passing in any relevant args.
+                tis:OnEvent(event, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9)
+            </OnEvent>
+        </Scripts>
+    </Frame>
+</Ui>

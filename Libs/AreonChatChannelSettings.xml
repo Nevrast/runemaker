@@ -1,0 +1,21 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~ Areon ChatChannel-Settings
+~~
+~~ written by PetraAreon for the Addons Lootomatic & ComeOnIn
+~~ released under the Creative Commons License By-Nc-Sa: http://creativecommons.org/licenses/by-nc-sa/3.0/
+ hidden="true"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<Ui xmlns="http://www.runewaker.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.runewaker.com/UI.xsd">
+<Script file="AreonChatChannelSettings.lua"/>
+
+<Button name="ChatChannelSetFrameTab3" inherits="ChatChannelSetTabTemplate" id="3" parent="ChatChannelSetFrame" text="Addons" frameStrata="HIGH">
+	<Anchors>
+		<Anchor point="TOPLEFT" relativeTo="ChatChannelSetFrameTab2" relativePoint="TOPRIGHT">
+			<Offset>
+				<AbsDimension x="6" y="0"/>
+			</Offset>
+		</Anchor>
+	</Anchors>
+</Button>
+</Ui>
